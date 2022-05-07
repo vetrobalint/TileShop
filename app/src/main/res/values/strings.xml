@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">TileShop</string>
+    <string name="username">Felhasználónév</string>
+    <string name="password">Jelszó</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="registration">Regisztráció</string>
+    <string name="passwordAgain">Jelszó megerősítése</string>
+    <string name="email">Email cím</string>
+    <string name="cancel">Mégsem</string>
+    <string name="phoneNumber">Telefonszám</string>
+    <string name="address">Lakcím</string>
+    <string name="seller">Eladó</string>
+    <string name="buyer">Vásárló</string>
+    <string name="productDescript">Termék leírás</string>
+    <string name="guest">Vendég felhasználó</string>
+    <string name="googleLogin">Bejelentkezés google fiókkal</string>
+    <string name="into_cart">Kosárba</string>
+    <string name="item_placeholder">Leírás</string>
+    <string name="item_info_placeholder">Információ a termékről</string>
+    <string name="delete">Törlés</string>
+    <string name="log_out">Kijelentkezés</string>
+    <string name="in_cart">Ennyiszer van a kosárban</string>
+    <string name="search">Search</string>
+    <string name="cart">Cart</string>
+    <string name="view">View</string>
+    <string-array name="phoneModes">
+        <item>Mobil</item>
+        <item>Otthoni</item>
+        <item>Munkahelyi</item>
+    </string-array>
+
+    <string-array name="tile_item_names">
+        <item>Fugázó</item>
+        <item>Fugakereszt</item>
+        <item>Fogas glettvas</item>
+        <item>Ragasztó</item>
+        <item>Vízmérték 2000mm</item>
+        <item>Vízmérték 800mm</item>
+        <item>Csempevágó</item>
+        <item>Csempevágó korong</item>
+        <item>Calvano fali csempe 25X40cm</item>
+        <item>Petrol Fali Csempe 20X50cm</item>
+        <item>Torontó gres padlólap 30X30cm</item>
+        <item>Stecchi grigio padlólap 34X34cm</item>
+        <item>Marple padlólap 34X34cm</item>
+        <item>Ardesia mozaik natural 30X30cm</item>
+        <item>Marisol dekorcsempe 25X40cm</item>
+        <item>Onix mozaik 34X34cm</item>
+        <item>Albero dekorcsempe 20X50cm</item>
+    </string-array>
+
+    <string-array name="tile_item_description">
+        <item>Flexibilis fugázóanyag, 5kg szürke 1–6mm vastagságig. Bel-és kültérben egyaránt felhasználható. Fűtött felületekre is.</item>
+        <item>A TOPEX fugakeresztek a burkolási munkálatokban találnak alkalmazásra. Kiváló minőségű műanyagból készülnek.</item>
+        <item>A TOPEX fogazott simító ragasztóhabarcsok felvitelére szolgál. Munkafelülete kiváló minőségű rozsdamentes acélból készül. A műanyagból készült ergonómikus markolat jól fekszik a tenyérben, növelve a munkavégzés kényelmét.</item>
+        <item>Adesilex P9 csemperagasztó, 25 kg. Szürke színben. Cementkötésű ragasztóhabarcs, kerámia burkolólap és kerámiamozaik ragasztására, bel- és kültéri padlón és falon.</item>
+        <item>Ölesléc, 2000 mm, 2 markolat, 2 libella.</item>
+        <item>Vízmérték, 800mm.</item>
+        <item>TOPEX csempevágó 22 x 6 x 2 mm-es vágókéssel. Kettős, 22 mm átmérőjű vezetőcsővel van felszerelve. Beépített golyóscsapágyas. Az alumínium asztal metrikus skálával és szögmérővel is el van látva.</item>
+        <item>Gyémánt vágótárcsa, 125 x 22,23 mm, csempe, folyamatos vágóél.</item>
+        <item>Calvano fali csempe. Szürke színű, mérete 25x40 cm. Nem fagyálló.</item>
+        <item>A csempe felhasználhatósága: konyhába és fürdőszobába. A burkolat színe szürke, felülete fényes, mérete 20x50cm. Nem fagyálló.</item>
+        <item>Torontó gres padlólap szürke színben. Jellemzők: mérete 30x30cm, fagyálló. Padlófűtéshez alkalmas.</item>
+        <item>Stecchi Grigio beltéri Padlólap, mérete: 340x340x5mm I.osztály. Nem fagyálló. Padlófűtéshez alkalmas.</item>
+        <item>Beltéri padlólap, PEI 3, fehér márvány színben,0,7x 34x34cm méretben. Nem fagyálló. Padlófűtéshez alkalmas.</item>
+        <item>Mozaik "Ardesia" I.osztályú sötét szürke színű matt 30x30cm. Fagyálló.</item>
+        <item>Marisol bézs virágos dekorcsempe. Mérete 25x40cm. Fagyálló.</item>
+        <item>Onix fali csempemozaik. 34x34x0,7 cm, bézs, beltéri, 1,62 m2/csomag. Nem fagyálló.</item>
+        <item>Albero fali dekorcsempe, 20x50 cm, bézs-barna, bögremintás. Nem fagyálló.</item>
+    </string-array>
+
+    <array name="tile_item_rates">
+        <item>5</item>
+        <item>5</item>
+        <item>4.5</item>
+        <item>4</item>
+        <item>3.7</item>
+        <item>4.2</item>
+        <item>4.5</item>
+        <item>3.5</item>
+        <item>3.8</item>
+        <item>4</item>
+        <item>3.5</item>
+        <item>4</item>
+        <item>2.5</item>
+        <item>4</item>
+        <item>5</item>
+        <item>4.5</item>
+        <item>5</item>
+    </array>
+
+    <array name="tile_item_images">
+        <item>@drawable/fugazo</item>
+        <item>@drawable/fugakereszt</item>
+        <item>@drawable/fogazott_glettvas</item>
+        <item>@drawable/ragaszto</item>
+        <item>@drawable/vizmertek</item>
+        <item>@drawable/vizmertek_kicsi</item>
+        <item>@drawable/csempevago</item>
+        <item>@drawable/vago_korong</item>
+        <item>@drawable/calvano</item>
+        <item>@drawable/petrol</item>
+        <item>@drawable/toronto</item>
+        <item>@drawable/stecchi</item>
+        <item>@drawable/marple</item>
+        <item>@drawable/ardesia_mozaik</item>
+        <item>@drawable/virag</item>
+        <item>@drawable/onix_mozaik</item>
+        <item>@drawable/bogre</item>
+    </array>
+
+    <array name="tile_item_price">
+        <item>2.300 Ft/darab</item>
+        <item>399 Ft/csomag</item>
+        <item>2.699 Ft/darab</item>
+        <item>5.499 Ft/darab</item>
+        <item>9.999 Ft/darab</item>
+        <item>3.799 Ft/darab</item>
+        <item>36.990 Ft/darab</item>
+        <item>2.899 Ft/darab</item>
+        <item>3.300 Ft/m2</item>
+        <item>9.600 Ft/m2</item>
+        <item>4.800 Ft/m2</item>
+        <item>3.300 Ft/m2</item>
+        <item>4.000 Ft/m2</item>
+        <item>3.699 Ft/darab</item>
+        <item>1.999 Ft/darab</item>
+        <item>5.668 Ft/csomag</item>
+        <item>4.999 Ft/darab</item>
+    </array>
+</resources>

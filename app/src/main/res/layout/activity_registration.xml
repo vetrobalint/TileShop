@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/backgroundColor">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".RegistrationActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/registration"
+            android:layout_marginTop="60dp"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/userNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:ems="10"
+            android:hint="@string/username"
+            android:inputType="text"
+            android:minHeight="48dp"
+            android:textColorHint="@color/black"
+            app:backgroundTint="@color/black"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:textColorHint="@color/black"
+            app:backgroundTint="@color/black"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/passworAgainEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:ems="10"
+            android:hint="@string/passwordAgain"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:textColorHint="@color/black"
+            app:backgroundTint="@color/black"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:textColorHint="@color/black"
+            app:backgroundTint="@color/black"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:id="@+id/phoneEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:ems="10"
+            android:hint="@string/phoneNumber"
+            android:inputType="phone"
+            android:minHeight="48dp"
+            android:textColorHint="@color/black"
+            app:backgroundTint="@color/black"
+            android:textColor="@color/black"/>
+
+        <RadioGroup
+            android:id="@+id/accountType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal">
+
+            <RadioButton
+                android:id="@+id/buyerRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/buyer"
+                android:textColor="@color/black"/>
+
+            <RadioButton
+                android:id="@+id/sellerRadioButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/seller"
+                android:layout_marginStart="30dp"
+                android:textColor="@color/black"/>
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/registration"
+                android:layout_marginStart="40dp"
+                android:onClick="registration"
+                tools:ignore="UsingOnClickInXml"
+                android:backgroundTint="@color/button_color"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cancel"
+                android:layout_marginStart="40dp"
+                android:onClick="cancel"
+                tools:ignore="UsingOnClickInXml"
+                android:backgroundTint="@color/button_color"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
