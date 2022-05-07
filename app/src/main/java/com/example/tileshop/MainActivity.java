@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
 
         spreferences = getSharedPreferences(PREF,MODE_PRIVATE);
         fAuth = FirebaseAuth.getInstance();
-        GoogleSignInOptions gsio = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestIdToken(String.valueOf(R.string.default_web_client_id)).requestEmail().build();
+        GoogleSignInOptions gsio = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN).requestIdToken("799594402973-4bnuaar5lk4ddc47mitpecvdg0ri2f9q.apps.googleusercontent.com").requestEmail().build();
         googleSignInClient = GoogleSignIn.getClient(this, gsio);
 
         getSupportLoaderManager().restartLoader(0, null, this);
