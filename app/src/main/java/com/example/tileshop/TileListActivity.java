@@ -200,5 +200,5 @@ public class TileListActivity extends AppCompatActivity {
         notificationHelper.send(tileItem.getName()+" hozzáadva a kosárhoz.");
         queryData();
     }
-
+    // komment
 }
